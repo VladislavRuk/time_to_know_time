@@ -32,8 +32,7 @@ def what_time(city):
     hello (input (''))
 
 def request (city):
-    set_cities = list (UTC_OFFSET)
-    if city in set_cities:
+    if city in UTC_OFFSET.keys():
        return what_time(city)
     else:
         print ('Введите город из списка')
