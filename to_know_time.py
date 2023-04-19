@@ -39,5 +39,5 @@ def request (city):
         request(input(''))
 
 print('Введите название города, чтобы узнать текущее время:')
-print (f'Доступные города: {list(UTC_OFFSET)}')
+print (f'Доступные города:{list(UTC_OFFSET)}')
 hello (input (''))
